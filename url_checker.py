@@ -1,3 +1,4 @@
+
 import streamlit as st
 from report_generator import generate_pdf
 
@@ -94,4 +95,3 @@ def url_check_ui():
         if st.button("📄 Download Report"):
             generate_pdf("url_report.pdf", "URL Forensics Report", report_data)
             with open("url_report.pdf", "rb") as f:
-                st.download_button("Download PDF", f, file_name="url_report.pdf")

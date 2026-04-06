@@ -1,3 +1,4 @@
+
 import streamlit as st
 from PIL import Image
 import numpy as np
@@ -73,4 +74,3 @@ def stego_ui():
 
                 st.success(msg)
 
-            os.remove(temp)
