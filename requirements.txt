@@ -1,0 +1,5 @@
+streamlit
+reportlab
+pillow
+requests
+opencv-python-headless
