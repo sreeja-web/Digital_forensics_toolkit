@@ -1,6 +1,5 @@
 
 import streamlit as st
-from auth import login_user, signup_user
 from file_analyzer import file_analysis_ui
 from log_analyzer import log_analysis_ui
 from url_checker import url_check_ui
